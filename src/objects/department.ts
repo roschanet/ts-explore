@@ -1,6 +1,7 @@
 class Department {
     name: string
-    private employees: string[] = []
+    // private employees: string[] = []
+    protected employees: string[] = []
 
     constructor(n: string){
         this.name = n
