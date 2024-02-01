@@ -5,7 +5,7 @@ export default function ObjectGetterSetter(){
 
     chemical.description()
     chemical.printEmployeesInfo()
-    chemical.mostRecentReport = 'Hello from setter value report'
+    chemical.mostRecentReport = 'Hello from setter value report' // Invoke setter as property also
     console.log(chemical.mostRecentReport) // Invoke getter as property
     chemical.addReport('Something went wrong...')
     chemical.addReport('Still something went wrong...')
