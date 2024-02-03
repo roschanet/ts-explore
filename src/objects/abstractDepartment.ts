@@ -1,7 +1,7 @@
 import Department from "./department";
 
 abstract class AbstractDepartment extends Department {
-    // Abstract class will Force child class to using tasks and createTask
+    // Abstract class will Force child class to using tasks and createTask and abstract class can not instantiate
     abstract tasks: string[] // No need initial value
 
     abstract createTask(this: AbstractDepartment, task: string): void
