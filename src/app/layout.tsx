@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <input type="text" id="user-input" />
+        {children}
+      </body>
     </html>
   );
 }
