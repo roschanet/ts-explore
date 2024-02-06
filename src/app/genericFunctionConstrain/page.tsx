@@ -1,4 +1,4 @@
-import { merge } from "@/generics/genericConstrain"
+import { merge } from "@/generics/genericFunctionConstrain"
 
 export default function GenericFunctionConstrain(){
     // const user = merge({name: 'Welly', hobbies: ['sports', 'learning']}, 30) // Will error in compiled
